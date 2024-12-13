@@ -9,7 +9,7 @@ public class CustomerEntity {
 
     @Id
     private int id;
-    private Integer rut;
+    private int rut;
     private String dvCliente;
     private String nombre;
     private Integer telefono;

@@ -31,6 +31,12 @@ public class CustomerServiceImpl {
         return customerRepository.save(customer);
     }
 
+    public CustomerEntity findByRut(int rut){
+        return customerRepository.findByRut(rut);
+    }
+
+
+
     // private Method
 
     private int autoIncrementId(){
